@@ -1,0 +1,49 @@
+.patient-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .report-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .report-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .patient-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .patient-table th, .patient-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .patient-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .date-column {
+    text-align: right;
+  }
+  
+  /* Optional: Responsive design */
+  @media (max-width: 768px) {
+    .patient-table th, .patient-table td {
+      padding: 8px;
+    }
+  }
+  

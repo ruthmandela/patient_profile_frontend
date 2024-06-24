@@ -1,0 +1,113 @@
+body{
+    background: navy;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.form{
+background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-block-start: 5%;
+   
+}
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+
+}
+.table,td,th{
+ 
+        text-align: left;
+        overflow-x:auto;
+        width: 50%;
+ 
+
+}
+
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+.p{
+    text-align: left;
+}
+
+.form_input{
+   
+    width: 100%;
+    height: max-content;
+    margin-left: 70%;
+    
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize:vertical;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize:vertical;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+    resize: vertical;
+}
+
+button{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 12px 14px;
+    border: none;
+    display: inline-block;
+    width: 100%;
+
+
+}
+.footer{
+    text-align: center;
+}
+.container{
+width: 80%;
+height: 60%;
+background-color: aliceblue;
+/* justify-content: center; */
+border-radius: 10px;
+/* overflow-y: auto; */
+}
+.table,th,tr{
+    width: 80px;
+    padding: 12px;
+    background-color: aliceblue;
+  
+
+
+}
+.card{
+    text-align: center;
+    justify-content: center;
+    height: max-content;
+    background-color: navy;
+}
+.Modal.Title{
+    justify-content: center;
+    position: absolute;
+
+}
+
